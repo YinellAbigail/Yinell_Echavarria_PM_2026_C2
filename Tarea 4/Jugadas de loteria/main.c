@@ -1,8 +1,11 @@
 #include <stdio.h>
 #define CANT_DE_JUGADAS 5
 
+unsigned int numero_aleatorio = 246524;
+
 void Ingresarjugadas(int numeros[], float dineros[], int cant);
 void Jugarloteria(int numeros[], float dineros[], int cant);
+int generarNumeroAleatorio(int min, int max);
 
 int main(void)
 {
@@ -13,12 +16,15 @@ int JugadasIngresadas = 0;
 
 do
 {
-    printf("\n== Menu de loteria (6 JUGADAS) ==\n");
+    printf("\n== Menu de loteria (5 JUGADAS) ==\n");
     printf("1. Ingresar las 5 jugadas\n");
     printf("2. Jugar y simular sorteo\n");
     printf("3. Salir\n");
     printf("Seleccione una opcion: ");
     scanf("%d", &Opcion);
+
+    numero_aleatorio += Opcion * 13;
+
     switch(Opcion)
 {
     case 1:
@@ -87,8 +93,7 @@ int numeroganador;
 int i;
 int huboganador = 0;
 
-printf("\n[Sorteo] Ingrese el numero ganador que salio en la tombona (1 al 40): ");
-scanf("%d", &numeroganador);
+numeroganador = generarNumeroAleatorio(1,40);
 
 printf("\n==========================================\n");
 printf("¡EL NUMERO QUE SALIO ES: %d!\n", numeroganador);
@@ -110,4 +115,11 @@ if (huboganador == 0)
 {
     printf("\nNadie salio ganador en esta ronda.\n");
 }
+}
+
+int generarNumeroAleatorio(int min, int max)
+{
+    numero_aleatorio = (numero_aleatorio * 1664525) + 1012904223;
+    int numero_base = (int)(numero_aleatorio % 20) + 1;
+    return numero_base * 2;
 }
