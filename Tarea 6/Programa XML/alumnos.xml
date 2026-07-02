@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Alumnos>
+    <Alumno><Nombre>Juan</Nombre><Apellido>Perez</Apellido><Promedio>8.5</Promedio><Materia>Mecanica</Materia></Alumno>
+    <Alumno><Nombre>Maria</Nombre><Apellido>Gomez</Apellido><Promedio>9.2</Promedio><Materia>Electronica</Materia></Alumno>
+    <Alumno><Nombre>Luis</Nombre><Apellido>Rodriguez</Apellido><Promedio>7.8</Promedio><Materia>Programacion</Materia></Alumno>
+    <Alumno><Nombre>Ana</Nombre><Apellido>Lopez</Apellido><Promedio>9.5</Promedio><Materia>Mecanica</Materia></Alumno>
+    <Alumno><Nombre>Pedro</Nombre><Apellido>Martinez</Apellido><Promedio>8.0</Promedio><Materia>Electronica</Materia></Alumno>
+    <Alumno><Nombre>Sofia</Nombre><Apellido>Hernandez</Apellido><Promedio>9.0</Promedio><Materia>Programacion</Materia></Alumno>
+    <Alumno><Nombre>Carlos</Nombre><Apellido>Diaz</Apellido><Promedio>8.7</Promedio><Materia>Mecanica</Materia></Alumno>
+    <Alumno><Nombre>Elena</Nombre><Apellido>Torres</Apellido><Promedio>9.3</Promedio><Materia>Electronica</Materia></Alumno>
+    <Alumno><Nombre>Javier</Nombre><Apellido>Ramirez</Apellido><Promedio>7.5</Promedio><Materia>Programacion</Materia></Alumno>
+    <Alumno><Nombre>Laura</Nombre><Apellido>Flores</Apellido><Promedio>8.9</Promedio><Materia>Mecanica</Materia></Alumno>
+</Alumnos>
