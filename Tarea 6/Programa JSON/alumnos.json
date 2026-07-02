@@ -1,0 +1,14 @@
+{
+    "Alumnos": [
+        {"Nombre": "Juan", "Apellido": "Perez", "Promedio": 8.5, "Materia": "Mecanica"},
+        {"Nombre": "Maria", "Apellido": "Gomez", "Promedio": 9.2, "Materia": "Electronica"},
+        {"Nombre": "Luis", "Apellido": "Rodriguez", "Promedio": 7.8, "Materia": "Programacion"},
+        {"Nombre": "Ana", "Apellido": "Lopez", "Promedio": 9.5, "Materia": "Mecanica"},
+        {"Nombre": "Pedro", "Apellido": "Martinez", "Promedio": 8.0, "Materia": "Electronica"},
+        {"Nombre": "Sofia", "Apellido": "Hernandez", "Promedio": 9.0, "Materia": "Programacion"},
+        {"Nombre": "Carlos", "Apellido": "Diaz", "Promedio": 8.7, "Materia": "Mecanica"},
+        {"Nombre": "Elena", "Apellido": "Torres", "Promedio": 9.3, "Materia": "Electronica"},
+        {"Nombre": "Javier", "Apellido": "Ramirez", "Promedio": 7.5, "Materia": "Programacion"},
+        {"Nombre": "Laura", "Apellido": "Flores", "Promedio": 8.9, "Materia": "Mecanica"}
+    ]
+}
