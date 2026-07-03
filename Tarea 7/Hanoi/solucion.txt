@@ -1,0 +1,7 @@
+Movimiento 1: Mover disco 1 de A a C
+Movimiento 2: Mover disco 2 de A a B
+Movimiento 3: Mover disco 1 de C a B
+Movimiento 4: Mover disco 3 de A a C
+Movimiento 5: Mover disco 1 de B a A
+Movimiento 6: Mover disco 2 de B a C
+Movimiento 7: Mover disco 1 de A a C
