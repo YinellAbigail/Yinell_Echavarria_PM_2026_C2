@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MatrizRiesgos>
+  <Riesgo id="1">
+    <Nombre>Incendio en servidores</Nombre>
+    <Descripcion>Incendio en centro de computo</Descripcion>
+    <Criterios>
+      <F>5</F>
+      <S>5</S>
+      <P>5</P>
+      <E>4</E>
+      <A>2</A>
+      <V>3</V>
+    </Criterios>
+    <Resultados>
+      <I>25</I>
+      <C>30</C>
+      <PR>6</PR>
+      <ER>180</ER>
+      <Clasificacion>Muy Bajo</Clasificacion>
+    </Resultados>
+  </Riesgo>
+  <Riesgo id="2">
+    <Nombre>Ataque de Ransomware</Nombre>
+    <Descripcion>Infeccion por virus informatico</Descripcion>
+    <Criterios>
+      <F>5</F>
+      <S>4</S>
+      <P>4</P>
+      <E>4</E>
+      <A>4</A>
+      <V>4</V>
+    </Criterios>
+    <Resultados>
+      <I>20</I>
+      <C>24</C>
+      <PR>16</PR>
+      <ER>384</ER>
+      <Clasificacion>Bajo</Clasificacion>
+    </Resultados>
+  </Riesgo>
+  <Riesgo id="3">
+    <Nombre>Fuga de agua</Nombre>
+    <Descripcion>Fuga de agua sobre equipos</Descripcion>
+    <Criterios>
+      <F>4</F>
+      <S>3</S>
+      <P>3</P>
+      <E>2</E>
+      <A>5</A>
+      <V>5</V>
+    </Criterios>
+    <Resultados>
+      <I>12</I>
+      <C>15</C>
+      <PR>25</PR>
+      <ER>375</ER>
+      <Clasificacion>Bajo</Clasificacion>
+    </Resultados>
+  </Riesgo>
+  <Riesgo id="4">
+    <Nombre>Robo en almacen</Nombre>
+    <Descripcion>Robo en equipos y materiales</Descripcion>
+    <Criterios>
+      <F>5</F>
+      <S>5</S>
+      <P>5</P>
+      <E>5</E>
+      <A>5</A>
+      <V>5</V>
+    </Criterios>
+    <Resultados>
+      <I>25</I>
+      <C>30</C>
+      <PR>25</PR>
+      <ER>750</ER>
+      <Clasificacion>Normal / Medio</Clasificacion>
+    </Resultados>
+  </Riesgo>
+</MatrizRiesgos>
